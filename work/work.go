@@ -1,7 +1,7 @@
 package work
 
-import "fmt"
+type Work struct{}
 
-func Say() {
-	fmt.Println("I'm working!")
+func (w *Work) Say() string {
+	return "I'm working!"
 }

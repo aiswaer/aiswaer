@@ -1,7 +1,7 @@
 package hello
 
-import "fmt"
+type Hello struct{}
 
-func Say() {
-	fmt.Println("hello asiwaer!")
+func (h *Hello) Say() string {
+	return "hello asiwaer!"
 }
